@@ -1,0 +1,477 @@
+[board]
+title = "Bigtreetech Octopus v1.0"
+image = "bigtreetech-octopus-v11-622584-de.jpg"
+width = 1676
+height = 1024
+theme = "default"
+
+[[connector]]
+id = "HE 0"
+name = "HE 0"
+type = "ST-254"
+x1 = 198
+y1 = 873
+x2 = 306
+y2 = 979
+symbol = "heater"
+
+  [[connector.pin]]
+  name = "VIN"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "PA2"
+  color = "#9B59B6"
+
+[[connector]]
+id = "HE 1"
+name = "HE 1"
+type = "ST-254"
+x1 = 306
+y1 = 873
+x2 = 414
+y2 = 979
+symbol = "heater"
+
+  [[connector.pin]]
+  name = "VIN"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "PA3"
+  color = "#9B59B6"
+
+[[connector]]
+id = "HE 2"
+name = "HE 2"
+type = "ST-254"
+x1 = 414
+y1 = 873
+x2 = 522
+y2 = 979
+symbol = "heater"
+
+  [[connector.pin]]
+  name = "VIN"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "PB10"
+  color = "#9B59B6"
+
+[[connector]]
+id = "HE 3"
+name = "HE 3"
+type = "ST-254"
+x1 = 522
+y1 = 873
+x2 = 630
+y2 = 979
+symbol = "heater"
+
+  [[connector.pin]]
+  name = "VIN"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "PB11"
+  color = "#9B59B6"
+
+[[connector]]
+id = "Motor_Power"
+name = "Motor Power"
+type = "ST-BR-950"
+x1 = 4
+y1 = 148
+x2 = 169
+y2 = 345
+orientation = 90
+symbol = "power"
+
+  [[connector.pin]]
+  name = "GND"
+  color = "#2C3E50"
+
+  [[connector.pin]]
+  name = "VM"
+  color = "#E74C3C"
+
+[[connector]]
+id = "Power"
+name = "Power"
+type = "ST-BR-950"
+x1 = 4
+y1 = 345
+x2 = 169
+y2 = 542
+orientation = 90
+symbol = "power"
+
+  [[connector.pin]]
+  name = "GND"
+  color = "#2C3E50"
+
+  [[connector.pin]]
+  name = "24V"
+  color = "#E74C3C"
+
+[[connector]]
+id = "Bed_Power"
+name = "Bed Power"
+type = "ST-BR-950"
+x1 = 4
+y1 = 542
+x2 = 169
+y2 = 739
+orientation = 90
+symbol = "power"
+
+  [[connector.pin]]
+  name = "GND"
+  color = "#2C3E50"
+
+  [[connector.pin]]
+  name = "VBI"
+  color = "#E74C3C"
+
+[[connector]]
+id = "Bed_Out"
+name = "Bed Out"
+type = "ST-BR-950"
+x1 = 4
+y1 = 739
+x2 = 169
+y2 = 936
+orientation = 90
+symbol = "heater"
+
+  [[connector.pin]]
+  name = "VBO"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "PA1"
+  color = "#9B59B6"
+
+[[connector]]
+id = "MOTOR0_OUT"
+name = "MOTOR 0 Out"
+type = "XH-F"
+x1 = 178
+y1 = 4
+x2 = 311
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "MOTOR1_OUT"
+name = "MOTOR 1 Out"
+type = "XH-F"
+x1 = 322
+y1 = 4
+x2 = 455
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "MOTOR2_1_OUT"
+name = "MOTOR 2 1 Out"
+type = "XH-F"
+x1 = 462
+y1 = 4
+x2 = 595
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "MOTOR2_2_OUT"
+name = "MOTOR 2 2 Out"
+type = "XH-F"
+x1 = 606
+y1 = 4
+x2 = 739
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "MOTOR3_OUT"
+name = "MOTOR 3 Out"
+type = "XH-F"
+x1 = 749
+y1 = 4
+x2 = 882
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "MOTOR4_OUT"
+name = "MOTOR 4 Out"
+type = "XH-F"
+x1 = 891
+y1 = 4
+x2 = 1024
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "MOTOR5_OUT"
+name = "MOTOR 5 Out"
+type = "XH-F"
+x1 = 1034
+y1 = 4
+x2 = 1167
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "MOTOR6_OUT"
+name = "MOTOR 6 Out"
+type = "XH-F"
+x1 = 1176
+y1 = 4
+x2 = 1309
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "MOTOR7_OUT"
+name = "MOTOR 7 Out"
+type = "XH-F"
+x1 = 1317
+y1 = 4
+x2 = 1450
+y2 = 72
+symbol = "motor"
+
+  [[connector.pin]]
+  name = "A1"
+  color = "#2ECC71"
+
+  [[connector.pin]]
+  name = "A2"
+  color = "#3498DB"
+
+  [[connector.pin]]
+  name = "B2"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "B1"
+  color = "#2C3E50"
+
+[[connector]]
+id = "USB2"
+name = "USB-C"
+type = "USB-C"
+x1 = 1571
+y1 = 182
+x2 = 1661
+y2 = 282
+symbol = "usb"
+orientation = 270
+
+  [[connector.pin]]
+  name = "USB 2.0"
+
+[[connector]]
+id = "FAN0_5V"
+name = "FAN0 - 5V"
+type = "HDR-254"
+x1 = 646
+y1 = 854
+x2 = 701
+y2 = 881
+symbol = "power"
+description = "Add jumper for a 5V FAN0. Only add one jumper!"
+
+  [[connector.pin]]
+  name = "5V"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "VDC"
+  color = "#E74C3C"
+
+[[connector]]
+id = "FAN0_12V"
+name = "FAN0 - 12V"
+type = "HDR-254"
+x1 = 646
+y1 = 881
+x2 = 701
+y2 = 907
+symbol = "power"
+description = "Add jumper for a 12V FAN0. Only add one jumper!"
+
+  [[connector.pin]]
+  name = "12V"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "VDC"
+  color = "#E74C3C"
+
+[[connector]]
+id = "FAN0_V_IN"
+name = "FAN0 - V-In"
+type = "HDR-254"
+x1 = 646
+y1 = 907
+x2 = 701
+y2 = 933
+symbol = "power"
+description = "Add jumper for a 24V FAN0. Only add one jumper!"
+
+  [[connector.pin]]
+  name = "12V"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "VDC"
+  color = "#E74C3C"
+
+[[connector]]
+id = "FAN0"
+name = "FAN0"
+type = "XH-F"
+x1 = 637
+y1 = 935
+x2 = 702
+y2 = 1017
+orientation = 90
+
+  [[connector.pin]]
+  name = "VDC"
+  color = "#E74C3C"
+
+  [[connector.pin]]
+  name = "PA8"
+  color = "#9B59B6"
